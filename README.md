@@ -3,7 +3,7 @@ This repository serves as a guide to configuring your GitHub Actions workflow
 to automatically deploy your app to www.evennode.com on every commit to the master branch.
 
 ## Configuration
-1. Copy the file `.github/workflows/deploy-to-evennode.yml` to your local repository
+1. Copy the file [.github/workflows/deploy-to-evennode.yml](.github/workflows/deploy-to-evennode.yml) to your local repository
 2. Configure the following secrets for your repository's settings
     1. `SSH_KEY` - Your private key used to deploy to EvenNode
     2. `EVENNODE_REPO_URL` - Your application's git repository from EvenNode such as `git@git.evennode.com:myapplication.git`
