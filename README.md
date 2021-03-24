@@ -1,6 +1,10 @@
 # GitHub Actions workflow for deploying app to www.evennode.com
 This repository serves as a guide to configuring your GitHub Actions workflow 
-to automatically deploy your app to www.evennode.com on every commit to the master branch.
+to automatically deploy your app to www.evennode.com on every commit to the `master` branch.
+
+In case your git repository uses `main` branch instead of the `master` branch, you need to
+update the [.github/workflows/deploy-to-evennode.yml](.github/workflows/deploy-to-evennode.yml)
+file and replace all `master` occurances with `main`.
 
 ## Configuration
 1. Copy the file [.github/workflows/deploy-to-evennode.yml](.github/workflows/deploy-to-evennode.yml) to your local repository
